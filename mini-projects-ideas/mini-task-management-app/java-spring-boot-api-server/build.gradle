@@ -21,6 +21,12 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
+application {
+	mainClassName = 'com.example.javaspringbootapiserver.DemoApplication'
+}
+
+/*
 tasks.named('test') {
 	useJUnitPlatform()
 }
+*/
